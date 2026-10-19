@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
+
+# PlatformIO (ESP32 build output)
+.pio/
+
+# Moji's data: never public
+*.db
+*.db-wal
+*.db-shm
+recordings/
+clips/
+*.wav
+*.opus
+*.flac
+*.h264
+*.mp4
+!tests/fixtures/**
+
+# AI model files: downloaded, not committed
+models/
+*.onnx
+*.tflite
+*.hef
+*.gguf
+*.pt
+
+# Secrets
+secrets.*
+.env
+*.key
+
+# Editor and OS clutter
+.vscode/
+Thumbs.db
+desktop.ini
+.DS_Store
